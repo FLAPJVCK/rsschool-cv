@@ -1,1 +1,1 @@
-# rsschool-cv
+https://FLAPJVCK.github.io/rsschool-cv/cv
