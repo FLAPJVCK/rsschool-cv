@@ -32,3 +32,14 @@ const string = prompt('Enter a string: ');
 const result = reverseString(string);
 console.log(result);
 ```
+## Education
+* **Belarusian State University of Informatics and Radioelectronics**
+    * Bachelor's degree, Computers, systems and networks
+* **Cisco Networking Academy**
+    * CCNA Routing and Switching: Introduction to Networks
+## Languages
+* **Russian** - native speaker
+* **English** - B1
+* **Polish** - A1
+
+
