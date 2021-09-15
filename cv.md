@@ -40,7 +40,7 @@ console.log(result);
     * Bachelor's degree, Computers, systems and networks
 * **Cisco Networking Academy**
     * CCNA Routing and Switching: Introduction to Networks
-    
+
 ## Languages
 * **Russian** - native speaker
 * **English** - B1
