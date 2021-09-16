@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b0bec5;
+    color:  #ffd344;
+    font-size: 24px;
+    width: 1000px;
+    font-family: "Arsenal", sans-serif;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: "Audiowide";
+    color: #ffeb3b;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.page_header{
+    background-color: #455a64;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    min-height: 40px;
+    padding: 30px 2rem 30px; 
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-around;
+}
+
+.header_title{
+    font-family: "Aclonica";
+    font-size: 70px;
+    text-align: center;
+}
+
+.header_subtitle{
+    font-family: "Gochi Hand";
+    font-size: 70px;
+    text-align: center;
+}
+
+.header_subtitle{
+    font-size: 40px;
+    text-align: center;
+}
+
+.site_navigation {
+    list-style-type: none;
+    font-weight: bold;
+
+}
+
+.contact_image{
+    width: 20px;
+    height: 20px;
+}
+
+.contact_block{
+    list-style: none;
+}
+
+.site_navigation_item{
+    border-radius: 10px;
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.site_navigation_link{
+   color: #ffeb3b; 
+}
+
+.site_navigation_link, .footer_github, .contact_block>div>a {
+    text-decoration: none;
+}
+
+.site_navigation_item:hover {
+    background-color: rgba(211, 143, 55, 0.5);
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.column{
+    width: 50%;
+    background-color: brown;
+}
+
+.column_header{
+    color: #f9a825;
+    width: 50%;
+}
+
+.contact_item{
+    color: #ffd344;
+}
+
+.cv{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+}
+
+.avatar{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    width: auto;
+    position: relative;
+}
+
+.contact_item:hover{
+    color: #CFD8DC;
+}
+
+.main{
+    display: flex;
+    align-items: stretch;
+}
+
+.left_column{
+    width: 35%;
+    background-color: #37474f;
+    padding: 0 35px 0 25px;
+}
+
+.column{
+    background-color: #78909C
+}
+
+.right_column{
+    width: 65%;
+    background-color: #78909c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.about_text{
+    font-family: "Architects Daughter";
+    font-size: 25px;
+}
+
+.education_date{
+    background-color: #e53835a6;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.code_text{
+    font-size: 20px;
+}
+
+.skills_list{    
+    margin-left: 25px;
+    list-style: circle;
+}
+
+.languages_list{
+    margin-left: 25px;
+}
+
+.footer{
+    background-color: #455a64;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin: 0 auto;
+    padding: 1rem; 
+}
+
+.footer_github{
+    color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer_rsschool{
+    margin-left: 64px;
+}
+
+.github_logo{
+    margin-right: 5px;
+}
+
+.footer_year{
+    color: black;
+}
