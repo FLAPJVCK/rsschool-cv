@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects%20Daughter">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gochi%20Hand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal">
+    <title>Artyom Vaskevich – Web-developer</title>
+</head>
+<body>
+    <div>
+        <header class="page_header">
+            <ul class="site_navigation">
+                <li class="site_navigation_item"><a class="site_navigation_link" href="#contacts">CONTACTS</a></li>
+                <li class="site_navigation_item"><a class="site_navigation_link" href="#education">EDUCATION</a></li>
+                <li class="site_navigation_item"><a class="site_navigation_link" href="#languages">LANGUAGES</a></li>
+                <li class="site_navigation_item"><a class="site_navigation_link" href="#about_me">ABOUT ME</a></li>
+                <li class="site_navigation_item"><a class="site_navigation_link" href="#skills">SKILLS</a></li>
+                <li class="site_navigation_item"><a class="site_navigation_link" href="#code_example">CODE EXAMPLE</a></li>
+            </ul>
+        </header>
+        <div class="cv">
+            <div class="header">
+                <div class="column left_column">
+                    <figure class="avatar">
+                        <img src="images/avatar.png" class="header_avatar" alt="Header avatar">
+                    </figure>
+                </div>
+                <div class="column_header right_column">
+                    <h1 class="header_title">Artyom Vaskevich</h1>
+                    <h3 class="header_subtitle">Web-developer</h3>
+                </div>
+            </div>
+            <main class="main">
+                <div class="left_column">
+                    <section class="document contact_info">
+                        <h2 class="title" id="contacts">Contacts</h2>
+                        <ul class="contact_wrapper">
+                            <li class="contact_block">
+                                <div class="image_phone">
+                                    <a class="contact_item" href="tel:+375333136587">
+                                    <img class="contact_image" src="images/phoneLogo.png" alt="Phone Logo"/>
+                                    +3753331336587</a>
+                                </div>
+                            </li>
+                            <li class="contact_block">
+                                <div class="image_email">
+                                    <a class="contact_item" href="mailto:vaskevich1199@mail.ru">
+                                    <img class="contact_image" src="images/mailLogo.png" alt="Mail Logo"/>
+                                    vaskevich1199@mail.ru</a>
+                                </div>
+                            </li>
+                            <li class="contact_block">
+                                <div class="image_GitHub">
+                                    <a class="contact_item" href="https://github.com/FLAPJVCK" target="_blank">
+                                    <img class="contact_image" src="images/GitHubLogo.png" alt="GitHub Logo"/>
+                                    FLAPJVCK</a>
+                                </div>
+                            </li>
+                            <li class="contact_block">
+                                <div class="image_LinkedIn">
+                                    <a class="contact_item" href="https://www.linkedin.com/in/flapjvck/" target="_blank">
+                                    <img class="contact_image" src="images/linkedinLogo.png" alt="Linkedin Logo"/>
+                                    flapjvck</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="document education">
+                        <h2 class="title" id="education">Education</h2>
+                        <div class="education_block">
+                            <div class="education_date"><i>2017-2021 </i></div>
+                            <p class="education_text"><b>Belarusian State University of Informatics and Radioelectronics (BSUIR)</b><br />
+                            Computers, systems and networks<br />Bachelor's degree</p>
+                        </div>
+                        <div class="education_block">
+                            <div class="education_date"><i>2019-2020</i></div> 
+                            <p class="education_text"><b>Cisco Networking Academy</b><br />CCNA Routing and Switching: Introduction to Networks</p>
+                        </div>
+                    </section>
+                    <section class="document languages">
+                        <h2 class="title" id="languages">Languages</h2>
+                        <ul class="languages_list">
+                            <li>Russian - native speaker</li>
+                            <li>English - B1</li>
+                            <li>Polish - A1</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="right_column">
+                    <section class="document about_me">
+                        <h2 class="title" id="about_me">About Me</h2> 
+                        <p class="about_text">I am purposeful and sociable, have an analytical mindset. Talking about a work process, I am catching on fast, also can quickly find solutions to various work problems. Ice hockey player, sport lover and fan of the technological progress.</p>
+                    </section>
+                    <section class="document skills">
+                        <h2 class="title" id="skills">Skills</h2>
+                        <ul class="skills_list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Git/GitHub</li>
+                            <li>Java</li>
+                            <li>SQL</li>
+                            <li>C/C++</li>
+                        </ul>
+                    </section>
+                    <section class="document code_example">
+                        <h2 class="title" id="code_example">Code Example</h2>
+                        <pre class="code_text">
+function reverseString(str) {
+
+    let newString = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+
+const string = prompt('Enter a string: ');
+
+const result = reverseString(string);
+console.log(result); 
+                        </pre>
+                    </section>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer_block">
+                    <a class="contact_item footer_github" href="https://github.com/FLAPJVCK" target="_blank">
+                    <img src="images/GitHubLogo.png" class="github_logo" width="40" height="40" alt="GitHub logo">
+                    My GitHub</a>
+                </div>
+                <div class="footer_block">
+                    <p class="footer_year">2021</p>
+                </div>
+                <div class="footer_block">
+                    <a class="footer_rsschool" href="https://rs.school/js/" target="_blank">
+                        <img src="images/rs_school_js.svg" width="86" height="32" alt="RS School">
+                    </a>
+                </div>
+            </footer>   
+        </div>
+    </div>  
+</body>
+</html>
