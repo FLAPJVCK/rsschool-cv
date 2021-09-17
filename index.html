@@ -9,20 +9,40 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gochi%20Hand">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>Artyom Vaskevich – Web-developer</title>
 </head>
 <body>
-    <div>
-        <header class="page_header">
-            <ul class="site_navigation">
-                <li class="site_navigation_item"><a class="site_navigation_link" href="#contacts">CONTACTS</a></li>
-                <li class="site_navigation_item"><a class="site_navigation_link" href="#education">EDUCATION</a></li>
-                <li class="site_navigation_item"><a class="site_navigation_link" href="#languages">LANGUAGES</a></li>
-                <li class="site_navigation_item"><a class="site_navigation_link" href="#about_me">ABOUT ME</a></li>
-                <li class="site_navigation_item"><a class="site_navigation_link" href="#skills">SKILLS</a></li>
-                <li class="site_navigation_item"><a class="site_navigation_link" href="#code_example">CODE EXAMPLE</a></li>
-            </ul>
-        </header>
+    <header class="page_header">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu site_navigation">
+            <li class="site_navigation_item"><a class="menu_item site_navigation_link" href="#contacts">CONTACTS</a></li>
+            <li class="site_navigation_item"><a class="menu_item site_navigation_link" href="#education">EDUCATION</a></li>
+            <li class="site_navigation_item"><a class="menu_item site_navigation_link" href="#languages">LANGUAGES</a></li>
+            <li class="site_navigation_item"><a class="menu_item site_navigation_link" href="#about_me">ABOUT ME</a></li>
+            <li class="site_navigation_item"><a class="menu_item site_navigation_link" href="#skills">SKILLS</a></li>
+            <li class="site_navigation_item"><a class="menu_item site_navigation_link" href="#code_example">CODE EXAMPLE</a></li>
+        </ul>
+      </header>
+
+
+      <!-- <ul class="site_navigation">
+        <li class="site_navigation_item"><a class="site_navigation_link" href="#contacts">CONTACTS</a></li>
+        <li class="site_navigation_item"><a class="site_navigation_link" href="#education">EDUCATION</a></li>
+        <li class="site_navigation_item"><a class="site_navigation_link" href="#languages">LANGUAGES</a></li>
+        <li class="site_navigation_item"><a class="site_navigation_link" href="#about_me">ABOUT ME</a></li>
+        <li class="site_navigation_item"><a class="site_navigation_link" href="#skills">SKILLS</a></li>
+        <li class="site_navigation_item"><a class="site_navigation_link" href="#code_example">CODE EXAMPLE</a></li>
+        <li class="site_navigation_item"><a class="site_navigation_link" href="#languages">LANGUAGES</a></li>
+    </ul>
+
+</header> -->
+
+
+
         <div class="cv">
             <div class="header">
                 <div class="column left_column">
@@ -38,7 +58,7 @@
             <main class="main">
                 <div class="left_column">
                     <section class="document contact_info">
-                        <h2 class="title" id="contacts">Contacts</h2>
+                        <h2 class="title contacts" id="contacts">Contacts</h2>
                         <ul class="contact_wrapper">
                             <li class="contact_block">
                                 <div class="image_phone">
@@ -92,8 +112,8 @@
                     </section>
                 </div>
                 <div class="right_column">
-                    <section class="document about_me">
-                        <h2 class="title" id="about_me">About Me</h2> 
+                    <section class="document">
+                        <h2 class="title about_me" id="about_me">About Me</h2> 
                         <p class="about_text">I am purposeful and sociable, have an analytical mindset. Talking about a work process, I am catching on fast, also can quickly find solutions to various work problems. Ice hockey player, sport lover and fan of the technological progress.</p>
                     </section>
                     <section class="document skills">
@@ -110,7 +130,7 @@
                     </section>
                     <section class="document code_example">
                         <h2 class="title" id="code_example">Code Example</h2>
-                        <pre class="code_text">
+                        <pre class="code_text"><code class="js">
 function reverseString(str) {
 
     let newString = "";
@@ -124,7 +144,7 @@ const string = prompt('Enter a string: ');
 
 const result = reverseString(string);
 console.log(result); 
-                        </pre>
+                        </code></pre>
                     </section>
                 </div>
             </main>
@@ -139,7 +159,7 @@ console.log(result);
                 </div>
                 <div class="footer_block">
                     <a class="footer_rsschool" href="https://rs.school/js/" target="_blank">
-                        <img src="images/rs_school_js.svg" width="86" height="32" alt="RS School">
+                        <img src="images/rs_school_js.svg" class="rs_logo" width="86" height="32" alt="RS School">
                     </a>
                 </div>
             </footer>   
