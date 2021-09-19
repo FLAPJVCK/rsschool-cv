@@ -389,7 +389,7 @@ body{
     .page_header{
         justify-content: left;
         padding: 0px;
-        width: 811.266px;
+        width: 100%;
     }
 
     .site_navigation_item>a{
@@ -428,12 +428,6 @@ body{
     .site_navigation_item>a{
         font-size: 16px;
         
-    }
-
-    .page_header {
-        justify-content: left;
-        padding: 0px;
-        width: 100%;
     }
 
     .title{
