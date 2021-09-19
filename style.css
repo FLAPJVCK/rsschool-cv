@@ -214,11 +214,6 @@ body{
     color: #E4EBD3;
 }
 
-.cv{
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .avatar{
     display: flex;
     height: 500px;
@@ -239,7 +234,7 @@ body{
 .left_column{
     width: 35%;
     background-color: #3E3C40;
-    padding: 0 35px 0 25px;
+    padding: 0 25px 0 25px;
 }
 
 .column{
@@ -377,7 +372,7 @@ body{
 
 @media screen and (max-width: 1000px){
     body{
-        width: 811.27px;
+        width: 800px;
         display: flex;
         flex-direction: column;
     }
@@ -394,7 +389,6 @@ body{
 
     .site_navigation_item>a{
         font-size: 20px;
-        
     }
 
     .title{
@@ -541,7 +535,7 @@ body{
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     body{
         width: 320px;
         display: flex;
